@@ -193,7 +193,7 @@ const Header = () => {
       <Container className={classes.header}>
         <Link href="/" passHref>
           <Group>
-            <Logo height={72} />
+            <Logo height={70} width={70} />
             <Text weight={600}>{config.get("general.appName")}</Text>
           </Group>
         </Link>
