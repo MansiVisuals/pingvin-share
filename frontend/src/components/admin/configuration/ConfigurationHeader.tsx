@@ -38,7 +38,15 @@ const ConfigurationHeader = ({
           <Link href="/" passHref>
             <Group>
               <Logo height={100} width={100} />
-              <Text weight={600}>{config.get("general.appName")}</Text>
+              <Text 
+                weight={600}
+                style={{ 
+                  fontFamily: "Ubuntu, sans-serif", 
+                  fontSize: "1.3rem" 
+                }}
+              >
+                {config.get("general.appName")}
+              </Text>
             </Group>
           </Link>
           <MediaQuery smallerThan="sm" styles={{ display: "none" }}>
