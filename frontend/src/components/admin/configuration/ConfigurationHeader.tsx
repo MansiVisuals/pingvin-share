@@ -37,7 +37,7 @@ const ConfigurationHeader = ({
         <Group position="apart" w="100%">
           <Link href="/" passHref>
             <Group>
-              <Logo height={70} width={70} />
+              <Logo height={100} width={100} />
               <Text weight={600}>{config.get("general.appName")}</Text>
             </Group>
           </Link>
