@@ -198,7 +198,7 @@ const Header = () => {
               weight={600}
               style={{ 
                 fontFamily: "Ubuntu, sans-serif", 
-                fontSize: "1.3rem" 
+                fontSize: "1.7rem" 
               }}
             >
               {config.get("general.appName")}
